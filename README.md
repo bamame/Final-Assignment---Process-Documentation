@@ -28,20 +28,36 @@ This SOP is intended for use in software development projects within organizatio
 
 This SOP ensures alignment with project objectives, facilitates collaboration among team members, and supports the successful delivery of high-quality software solutions.
 
-
-
-
-
-
-
 ---
 
 ## Definitions
-1. VM: Virtual Machine, a software-based emulation of a physical computer.  
-2. VMware: A virtualization platform used to create and manage virtual machines.  
-3. ISO File: A disk image file format used for installing operating systems.  
-4. Host Machine: The physical computer where VMware is installed and virtual machines are hosted.  
-5. NAT (Network Address Translation): A networking method that allows the virtual machine to access external networks using the host machine's IP address.
+
+## Project Goals
+High-level outcomes that a project aims to achieve, serving as a foundation for planning and execution.
+
+## Scope
+The boundaries of the project, defining what is included and excluded from the deliverables.
+
+## Requirements Specification
+A detailed document outlining the functional and non-functional needs of the system, derived from stakeholder input.
+
+## Architecture
+The structural design of a system, including components, their relationships, and the technologies used.
+
+## Unit Testing
+A software testing method focusing on individual components or modules to ensure they function as intended.
+
+## Integration Testing
+Testing conducted to evaluate how different modules interact with each other and ensure a cohesive system.
+
+## Deployment Package
+A bundled set of files, configurations, and instructions required for deploying a system into a real-world environment.
+
+## Baseline
+A fixed reference point in the project lifecycle used to track changes and assess progress.
+
+## Acceptance Testing
+A formal testing process conducted to determine whether a system meets the predefined requirements and is ready for delivery.
 
 ---
 
