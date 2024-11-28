@@ -120,7 +120,63 @@ The Project Initiation phase focuses on defining the project's goals, scope, and
 - **Project Progress Plan**: A document outlining the timeline and milestones.
 - **Project Overall Plan**: A comprehensive plan defining objectives, scope, resources, budget, and strategies.
 - **Project Initiation Review Report**: A formal report summarizing the phase’s outputs.
-  
+
+# 4. Development Testing
+
+## Objective
+
+This phase consists of two main parts: **Development** and **Testing**. In the Development phase, tasks include creating and downloading a branch, conducting unit and integration testing, and merging the code into the main branch after review. The Testing phase onvolves deploying the test environment, peroforming functional and performance testing, and finally merging the code into production following a through review.
+
+## Key Activities for Development
+
+- **Start:** Begin the development process.
+
+- **Create a Branch:** Start by creating a new branch for the development task.
+
+- **Download the Branch:** Download the branch to the local environment to access and modify the code.
+
+- **Unit and Integration Testing:** Conduct unit and integration tests to ensure functionality and compatibility.
+
+- **Merge into Branch:** Once testing is complete, merge the changes into the main or target branch.
+
+- **Review:** Review the merged code for accuracy and completeness.
+ 
+   If the review fails, return to refine and re-test the code.
+
+   If the review passes, proceed to establish the baseline.   
+
+- **Base Line:** Approve the merged code as the baseline for future work.
+
+- **End:** Finalize the process and conclude the development phase.
+
+## Key Activities for Testing
+
+- **Start:** The project enters the testing phase.
+ 
+- **Deploy Test Environment:** Set up and deploy the testing environment to prepare for the upcoming tests.
+
+- **Testing:** Conduct functional and performance testing to ensure the system meets the expected requirements and performance standards.
+
+- **Review:** Review the testing results to determine if the baseline criteria are met.
+
+- **Base Line:** If the review is successful, establish the current version as the baseline.
+
+- **Merge Code and Deploy to the Production Environment:** Merge the code and deploy it to the production environment.
+
+- **Review:** Perform a final review in the production environment to confirm the deployment's success and system stability.
+
+- **End:** Conclude this phase and move on to the next process or final acceptance.
+
+## Tools
+
+- **GIT**: Version control and code hsoting.
+ 
+- **Eclipse**: Development environments.
+
+- **Jmeter Selenium**: Performance testing tool and Automation testong tools.
+
+ 
+
 ---
 
 ## Testing & Verification
