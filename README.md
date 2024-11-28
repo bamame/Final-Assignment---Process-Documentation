@@ -121,6 +121,56 @@ The Project Initiation phase focuses on defining the project's goals, scope, and
 - **Project Overall Plan**: A comprehensive plan defining objectives, scope, resources, budget, and strategies.
 - **Project Initiation Review Report**: A formal report summarizing the phase’s outputs.
 
+# 2. Requirements Analysis
+
+## Objective
+The Project Initiation phase focuses on defining the project's goals, scope, and deliverables. Key outputs include the Project Progress Plan, Project Overall Plan, and a formal Project Initiation Review Report to ensure thorough preparation and approval before moving to the next phase.
+
+## Key Activities
+- Start: Begin the requirements analysis phase.
+- Understand Requirements & Communicate with Stakeholders: Communicate with stakeholders to clarify requirements.
+- Review: Validate the requirements for completeness and accuracy.If failed, return to refine requirements. If passed, proceed to drafting specifications.
+- Draft Requirement Specifications: Create a formal document outlining detailed requirements.
+- Second Review: Validate and refine requirements as necessary.
+- Base Line: Finalize the requirements as a standard for subsequent phases.
+- End: Proceed to system design.
+
+## Tools
+- **JIRA**: Manage user story requirements and track task progress.
+- **WORD**: Document requirements.
+- **VISIO**: Create flowcharts and use case diagrams.
+- 
+## Deliverables
+- **Requirements Confirmation Report**: Summarizes agreed requirements.
+- **Requirements Analysis Specification**: Details functional and non-functional requirements.
+- **Requirements Review Meeting Report**: Documents meeting outcomes.
+
+# 3. System Design
+
+## Objective
+The System Design phase focuses on creating detailed design documentation for the system's architecture and components. Key activities include verifying external design documents, updating the requirements document, and drafting the system design document. Deliverables include interface, database, detailed, and overall design specifications to ensure alignment and readiness for implementation.
+
+## Key Activities
+- Start: Begin the system design phase.
+- Verify External Design Documents: Ensure alignment with APIs, databases, and related components.
+- Update Requirements Document: Refine requirements as needed.
+- System Design Document Writing: Create the system design document, detailing the system’s architecture and components.
+- Review: Assess and refine the design. If the review fails, return to refine the document. If the review passes, proceed to establish the baseline.
+- Base Line: Approve the design as a reference for implementation.
+- End: Conclude and move to development.
+
+## Tools
+- **POSTMAN**: For API design and documentation generation.
+- **MySQL Workbench**: A tool for database design and modeling.
+- **Visual Paradigm**: For UML modeling (use case diagrams, class diagrams, etc.).
+
+## Deliverables
+- **Interface Design Specification**: A document detailing the design and functionality of system interfaces.
+- **Interface Design Guidelines**: A set of standards and rules to ensure consistency and compatibility for interface development.
+- **Database Design Specification**: A document defining the database structure, including tables, relationships, and constraints.
+- **Detailed Design Specification**: A comprehensive document describing the specific implementation details of system components.
+- **Overall Design Specification**: A high-level document summarizing the system architecture, major components, and their interactions.
+
 # 4. Development Testing
 
 ## Objective
@@ -130,52 +180,90 @@ This phase consists of two main parts: **Development** and **Testing**. In the D
 ## Key Activities for Development
 
 - **Start:** Begin the development process.
-
 - **Create a Branch:** Start by creating a new branch for the development task.
-
 - **Download the Branch:** Download the branch to the local environment to access and modify the code.
-
 - **Unit and Integration Testing:** Conduct unit and integration tests to ensure functionality and compatibility.
-
 - **Merge into Branch:** Once testing is complete, merge the changes into the main or target branch.
 
 - **Review:** Review the merged code for accuracy and completeness.
- 
    If the review fails, return to refine and re-test the code.
-
    If the review passes, proceed to establish the baseline.   
-
 - **Base Line:** Approve the merged code as the baseline for future work.
-
 - **End:** Finalize the process and conclude the development phase.
 
 ## Key Activities for Testing
 
 - **Start:** The project enters the testing phase.
- 
 - **Deploy Test Environment:** Set up and deploy the testing environment to prepare for the upcoming tests.
-
 - **Testing:** Conduct functional and performance testing to ensure the system meets the expected requirements and performance standards.
-
 - **Review:** Review the testing results to determine if the baseline criteria are met.
-
 - **Base Line:** If the review is successful, establish the current version as the baseline.
-
 - **Merge Code and Deploy to the Production Environment:** Merge the code and deploy it to the production environment.
-
 - **Review:** Perform a final review in the production environment to confirm the deployment's success and system stability.
-
 - **End:** Conclude this phase and move on to the next process or final acceptance.
 
 ## Tools
-
 - **GIT**: Version control and code hsoting.
- 
-- **Eclipse**: Development environments.
 
+- **Eclipse**: Development environments.
 - **Jmeter Selenium**: Performance testing tool and Automation testong tools.
 
- 
+
+
+ # 5. System Deployment
+
+## Objective
+This phase focuses on preparing and executing the system deployment. Key activities include creating deployment packages and guidelines, 
+reviewing them for quality, submitting them to the Deployment Center, and coordinating with the Deployment Center to complete the deployment process. 
+The phase concludes with setting the baseline for future iterations and finalizing the deployment.
+
+## Key Activities
+- Start: Begin the deployment process.
+- Prepare Deployment Package and Guidelines: Simultaneously create the deployment package and provide clear deployment instructions.
+- Review: Evaluate the deployment package and guidelines to ensure they meet the required standards.
+- Submit to Deployment Center: Send the reviewed package and guidelines to the Deployment Center.
+- Coordinate with the Deployment Center for operations: Work with the Deployment Center to carry out the deployment process.
+- Base Line: Approve the deployment as the baseline for future iterations.
+- End: Conclude this phase after successful deployment and approval.
+
+## Tools
+- **DOCKER**: Containerized deployment.
+- **Jenkins**: Continuous integration and deployment automation.
+- **Nginx Apache**: Web server configuration.
+
+## Deliverables
+- **System Upgrade Request**: Documentation requesting approval for system upgrades.
+- **System Change Confirmation Form**: Test results confirming the system's functionality and readiness.
+- **Deployment Guidelines**: Detailed instructions for the deployment process.
+- **Deployment Package**: The packaged code and configurations required for deployment.
+
+# 6. Project Acceptance
+
+## Objective
+This phase focuses on finalizing the project and ensuring its successful closure. Key activities include drafting and reviewing the project closure report, 
+conducting preliminary acceptance, and performing final project acceptance after three months. Deliverables include summary, financial, documentation, construction, 
+and system operation reports, providing a comprehensive record of the project's outcomes and readiness.
+
+## Key Activities
+- Start: Begin the project closure process.
+- Draft the Project Closure Report: Prepare a comprehensive closure report documenting the project's deliverables, outcomes, and lessons learned.
+- Review: Evaluate the closure report for accuracy and completeness. If revisions are needed, update the report before proceeding.
+- Preliminary Project Acceptance: Conduct a preliminary acceptance process to validate the project's deliverables and outcomes.
+- Final Project Acceptance: Conduct the final acceptance process three months after the preliminary acceptance to confirm the project's long-term success and satisfaction.
+- Base Line: Establish the final project baseline for reference and future initiatives.
+- End: Conclude the project closure phase.
+
+## Tools
+- **Confluence**: Archive project documentation.
+- **Jenkins**: Track bugs and tasks in the final phase.
+- **Nginx Apache**: Collect user feedback and satisfaction surveys.
+
+## Deliverables
+- **Project Summary Report**: A comprehensive overview of the project's outcomes and achievements.
+- **Project Financial Report**: Documentation of the financial performance and budget utilization.
+- **Documentation Report**: A detailed report summarizing project-related documents and records.
+- **Construction Report**:  A report covering the engineering or construction-related activities and results.
+- **System Operation Report**:  Documentation of the system's operational performance and status.
 
 ---
 
