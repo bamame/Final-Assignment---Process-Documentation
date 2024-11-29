@@ -103,7 +103,7 @@ Before initiating the software development process, the following prerequisites 
 # 1. Project Initiation
 
 ## Objective
-The Project Initiation phase focuses on defining the project's goals, scope, and deliverables. Key outputs include the Project Progress Plan, Project Overall Plan, and a formal Project Initiation Review Report to ensure thorough preparation and approval before moving to the next phase.
+The project initiation focuses on defining the project’s goals, scope, and key tasks, while developing a detailed project plan with resource allocation and timelines. It ensures the plan's feasibility through reviews, establishes a baseline for execution, and prepares for the next phase.
 
 ## Key Activities
 - Start: Initiate the process by defining the project’s goals and scope.
@@ -124,7 +124,7 @@ The Project Initiation phase focuses on defining the project's goals, scope, and
 # 2. Requirements Analysis
 
 ## Objective
-The Project Initiation phase focuses on defining the project's goals, scope, and deliverables. Key outputs include the Project Progress Plan, Project Overall Plan, and a formal Project Initiation Review Report to ensure thorough preparation and approval before moving to the next phase.
+The requirements analysis phase focuses on understanding, refining, and validating product requirements through collaboration with stakeholders. Key tasks include drafting detailed specifications, ensuring accuracy, and documenting agreed-upon requirements and meeting outcomes to guide the next phase.
 
 ## Key Activities
 - Start: Begin the requirements analysis phase.
@@ -148,7 +148,7 @@ The Project Initiation phase focuses on defining the project's goals, scope, and
 # 3. System Design
 
 ## Objective
-The System Design phase focuses on creating detailed design documentation for the system's architecture and components. Key activities include verifying external design documents, updating the requirements document, and drafting the system design document. Deliverables include interface, database, detailed, and overall design specifications to ensure alignment and readiness for implementation.
+The system design phase focuses on creating detailed documentation for the system's architecture and components. It involves verifying external design documents, updating requirements, and drafting design specifications to ensure alignment with project goals. This phase prepares the system for implementation by defining interfaces, databases, and overall structure.
 
 ## Key Activities
 - Start: Begin the system design phase.
@@ -175,7 +175,7 @@ The System Design phase focuses on creating detailed design documentation for th
 
 ## Objective
 
-This phase consists of two main parts: **Development** and **Testing**. In the Development phase, tasks include creating and downloading a branch, conducting unit and integration testing, and merging the code into the main branch after review. The Testing phase onvolves deploying the test environment, peroforming functional and performance testing, and finally merging the code into production following a through review.
+The development and testing phase includes creating and managing code branches, conducting unit and integration testing, and merging code into the main branch after review. It also involves deploying a test environment, performing functional and performance testing, and finalizing the system for production deployment through thorough validation.
 
 ## Key Activities for Development
 
@@ -208,14 +208,10 @@ This phase consists of two main parts: **Development** and **Testing**. In the D
 - **Eclipse**: Development environments.
 - **Jmeter Selenium**: Performance testing tool and Automation testong tools.
 
-
-
  # 5. System Deployment
 
 ## Objective
-This phase focuses on preparing and executing the system deployment. Key activities include creating deployment packages and guidelines, 
-reviewing them for quality, submitting them to the Deployment Center, and coordinating with the Deployment Center to complete the deployment process. 
-The phase concludes with setting the baseline for future iterations and finalizing the deployment.
+The system deployment phase involves preparing deployment packages and guidelines, reviewing them for quality, and submitting them to the deployment center. It includes coordinating with the deployment center to execute the deployment and finalizing the baseline for future iterations after successful deployment.
 
 ## Key Activities
 - Start: Begin the deployment process.
@@ -240,9 +236,8 @@ The phase concludes with setting the baseline for future iterations and finalizi
 # 6. Project Acceptance
 
 ## Objective
-This phase focuses on finalizing the project and ensuring its successful closure. Key activities include drafting and reviewing the project closure report, 
-conducting preliminary acceptance, and performing final project acceptance after three months. Deliverables include summary, financial, documentation, construction, 
-and system operation reports, providing a comprehensive record of the project's outcomes and readiness.
+
+The project acceptance phase ensures the successful closure of the project by preparing and reviewing the closure report, validating deliverables through preliminary acceptance, and confirming long-term success during final acceptance. It finalizes all documentation and establishes the baseline for future reference.
 
 ## Key Activities
 - Start: Begin the project closure process.
